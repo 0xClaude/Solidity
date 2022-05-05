@@ -4,8 +4,10 @@ pragma solidity >=0.6.0;
 
 contract favorite {
 
+    // Creating variable "favoriteNumber" of type uint256
     uint256 public favoriteNumber = 5;
 
+    // Updating variable "favoriteNumber"
     function update(uint256 _favoriteNumber) public {
         favoriteNumber = _favoriteNumber;
     }
